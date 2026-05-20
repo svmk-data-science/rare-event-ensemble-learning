@@ -65,14 +65,11 @@ Interactive implementation and ensemble evaluation workflow.
 📓 [View Notebook on GitHub](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
 
+The notebook includes repository cloning steps to access the `/data` directory when executed in Google Colab.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
 ---
-
-The notebook includes repository cloning steps to access the `/data` directory when executed in Google Colab.
-
-🚀 [Run Notebook in Google Colab](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
-
 
 ## 📌 Project Highlights
 - End-to-end machine learning pipeline from preprocessing to evaluation  
