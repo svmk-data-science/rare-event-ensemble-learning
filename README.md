@@ -55,14 +55,16 @@ The goal is to improve prediction reliability and reduce false positives in thes
 ## 📄 Full Technical Report
 For detailed methodology, evaluation, and discussion:
 
-👉 [View Full Report](FULL_REPORT.md)
+👉 [View Full Technical Report](FULL_REPORT.md)
 
 ---
 
-## 📄 Notebook
+## Notebook
 Interactive implementation and ensemble evaluation workflow:
 
-👉  [View Notebook](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.pynb)
+- 📓 [View Notebook on GitHub](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
+
+- 🚀 [Run Notebook in Google Colab](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
 ---
 
