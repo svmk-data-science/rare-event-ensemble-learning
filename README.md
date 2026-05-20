@@ -60,11 +60,14 @@ For detailed methodology, evaluation, and discussion:
 ---
 
 ## Notebook
-Interactive implementation and ensemble evaluation workflow:
+Interactive implementation and ensemble evaluation workflow.
 
-- 📓 [View Notebook on GitHub](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
+📓 [View Notebook on GitHub](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
-- 🚀 [Run Notebook in Google Colab](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
+
+The notebook includes repository cloning steps to access the `/data` directory when executed in Google Colab.
+
+🚀 [Run Notebook in Google Colab](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
 ---
 
