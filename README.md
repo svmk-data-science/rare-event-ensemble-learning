@@ -70,7 +70,6 @@ The notebook includes repository cloning steps to access the `/data` directory w
 
 🚀 [Run Notebook in Google Colab](https://colab.research.google.com/github/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.ipynb)
 
----
 
 ## 📌 Project Highlights
 - End-to-end machine learning pipeline from preprocessing to evaluation  
