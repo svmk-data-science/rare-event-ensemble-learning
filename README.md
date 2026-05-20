@@ -82,7 +82,7 @@ Some preprocessing and engineering steps have been intentionally condensed or om
 
 The full methodology and pipeline design are documented in FULL_REPORT.md.
 
-- ensemble_model_evaluation.ipynb  
+- toi_ensemble_modelling.ipynb  
 - shap_feature_analysis.ipynb  
 
 ---
