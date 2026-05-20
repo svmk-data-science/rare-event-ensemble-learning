@@ -59,6 +59,13 @@ For detailed methodology, evaluation, and discussion:
 
 ---
 
+## 📄 Notebook
+Interactive implementation and ensemble evaluation workflow:
+
+👉  [View Notebook](https://github.com/svmk-data-science/tess-ensemble-classification/blob/main/notebooks/toi_ensemble_modelling.pynb)
+
+---
+
 ## 📌 Project Highlights
 - End-to-end machine learning pipeline from preprocessing to evaluation  
 - Interpretable AI applied to scientific data  
