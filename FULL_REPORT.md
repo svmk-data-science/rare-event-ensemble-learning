@@ -161,7 +161,7 @@ The selected threshold introduces a slight bias toward higher recall, enabling t
 Importantly, the threshold remains flexible depending on operational priorities, allowing the ensemble model to be adapted to different stages of the discovery pipeline. Lower thresholds may further increase sensitivity when maximising discoveries while higher thresholds may improve precision in resource-constrained validation settings.
  
 ## Model Interpretability
-To understand which features most strongly influenced classification decisions, SHAP (Shapely Additive Explanations) values were computed for the ensemble model.
+To understand which features most strongly influenced classification decisions, SHAP (SHapley Additive Explanations) analysis was computed for the ensemble model.
 
 The analysis identifies the most influential features contributing to candidate classification, providing transparency to the ensemble's decision making process.
 
@@ -170,6 +170,8 @@ The analysis identifies the most influential features contributing to candidate 
   </p>
 
 *Figure 4: SHAP-based feature importance  (left) and cumulative importance (right) for the ensemble model. Features are ranked by mean absolute SHAP values, highlighting the most influential variables driving classification decisions. The cumulative curve shows that approximately 80% of the model's predictive influence is explained by the top 12 features.*
+
+Additional SHAP analysis was performed independently on each base learner to evaluate cross-model feature behaviour and interpretability consistency. Detailed per-model SHAP visualisations and analysis are provided separately within `shap_feature_analysis.ipynb`.
 
 ## Key Insights
 The final soft-voting ensemble achieved the highest Average Precision (0.931) among the evaluated configurations, outperforming individual classifiers, particularly LightGBM (AP=0.923) trained on both full and reduced feature sets. This is further reflected in a strong ROC-AUC of 0.95 indicating robust class separation across decision thresholds. An optimal threshold starting point (~ 0.46) provided a balanced trade-off between sensitivity and specificity with the model achieving a precision of 0.85, recall of 0.92 and F1-score of 0.88. This resulted in a slight bias towards a higher recall, which is appropriate for minimising missed exoplanet candidates. Additionally, SHAP-based analysis reveals that model predictions are driven by a compact subset of features supporting both interpretability and efficient feature utilisation.
